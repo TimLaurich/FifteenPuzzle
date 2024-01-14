@@ -86,8 +86,8 @@ public class FifteenPuzzle extends JFrame {
     /**
      * This method is for movement, to move the tiles to the empty space.
      *
-     * @param newRow
-     * @param newCol
+     * @param newRow index of the tile to be moved.
+     * @param newCol index of the tile to be moved.
      */
     public void movement(int newRow, int newCol) {
         if (newRow >= 0 && newRow < 4 && newCol >= 0 && newCol < 4) {
